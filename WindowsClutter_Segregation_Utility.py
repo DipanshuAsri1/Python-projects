@@ -5,7 +5,7 @@
 import shutil,os,re
 
 print( "-------------Welcome To Clutter Segregation Utility----------------------");
-usersDir=input('Enter the users Directory where you would like to move your clutter in c  for ex: yourfullname :'); 
+usersDir=input('Enter the name of yours home dir or users dir in C Drive for ex: dipanshuasri =>'); 
 dirName='C:\\Users\\'+usersDir+'\\DOC_Files'
 dirName1='C:\\Users\\'+usersDir+'\\PDF_Files'
 dirName2='C:\\Users\\'+usersDir+'\\TXT_Files'
