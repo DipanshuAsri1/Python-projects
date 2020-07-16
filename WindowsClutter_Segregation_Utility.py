@@ -37,11 +37,11 @@ except FileExistsError:
     print("Directory " , dirName3 ,  " already exists") 
 
          
-source = 'C:\\Users\\dipanshuasri\\Desktop\\'
-destination_doc = 'C:\\Users\\dipanshuasri\\DOC_Files'
-destination_pdf = 'C:\\Users\\dipanshuasri\\PDF_Files'
-destination_txt = 'C:\\Users\\dipanshuasri\\TXT_Files'
-destination_xls = 'C:\\Users\\dipanshuasri\\Excel_Files'
+source = 'C:\\Users\\'+usersDir+'\\Desktop\\'
+destination_doc = 'C:\\Users\\'+usersDir+'\\DOC_Files'
+destination_pdf = 'C:\\Users\\'+usersDir+'\\PDF_Files'
+destination_txt = 'C:\\Users\\'+usersDir+'\\TXT_Files'
+destination_xls = 'C:\\Users\\'+usersDir+'\\Excel_Files'
 
 files= os.listdir(source)
 
@@ -62,7 +62,7 @@ for f in files:
     
 
 
-print("Doc Files created under C:\\Users\\"+usersDir+"\\DOC_Files : Check it")
-print("Pdf Files  created under C:\\Users\\"+usersDir+"\\PDF_Files : Check it")
-print("Text files  created under C:\\Users\\"+usersDir+"\\DOC_Files : Check it")
-print("Text files  created under C:\\Users\\"+usersDir+"\\Excel_Files : Check it")
+print("Doc Files copied under C:\\Users\\"+usersDir+"\\DOC_Files : Check it")
+print("Pdf Files copied under C:\\Users\\"+usersDir+"\\PDF_Files : Check it")
+print("Text files copied under C:\\Users\\"+usersDir+"\\DOC_Files : Check it")
+print("Excel files copied under C:\\Users\\"+usersDir+"\\Excel_Files : Check it")
